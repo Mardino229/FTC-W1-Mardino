@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
             {/* Footer Bottom */}
             <div className="flex gap-4 flex-col-reverse pt-10 items-center md:flex-row justify-between ">
-                <p className="font-light text-base text-[#939393]">© 2023 Vaultflow. All Rights Reserved.</p>
+                <p className="font-light text-center text-base text-[#939393]">© 2023 Vaultflow. All Rights Reserved.</p>
                 <div className="flex items-center space-x-2 mt-4 md:mt-0">
                     <img src={LOGO} alt="Vaultflow" />
                 </div>
