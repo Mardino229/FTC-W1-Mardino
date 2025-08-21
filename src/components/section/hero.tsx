@@ -35,7 +35,7 @@ export default function Hero() {
                 <img
                     src={heroImage}
                     alt="Dashboard analytics preview"
-                    className="w-full rounded-xl shadow-2xl"
+                    className="w-full rounded-xl"
                     loading="lazy"
                 />
             </div>
