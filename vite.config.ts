@@ -10,5 +10,5 @@ export default defineConfig({
       tailwindcss(),
       vitePluginSvgr(),
   ],
-  base: "/firstchallengeweek",
+  base: "/firstchallengeweek/",
 })
