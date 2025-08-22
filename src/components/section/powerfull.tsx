@@ -1,7 +1,7 @@
 
 export default function PowerFull() {
     return (
-        <section className="text-[#ECECEC] flex items-center justify-center px-4 py-16">
+        <section className="text-[#ECECEC] flex items-center justify-center px-4 pt-6">
             <div
                 className="
           max-w-7xl w-full mx-auto
