@@ -21,7 +21,7 @@ function App() {
                     <Hero />
                 </div>
             </div>
-            <div className="pb-2 bg-[#0B0121]">
+            <div className="pb-2">
                 <Trust />
                 <Feature/>
                 <PowerFull />
