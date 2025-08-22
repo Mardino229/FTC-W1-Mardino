@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Mardino229.github.io/firstchallengeweek",
+  "homepage": "https://Mardino229.github.io/FTC-W1-Mardino",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
