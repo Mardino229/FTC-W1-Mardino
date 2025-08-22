@@ -10,7 +10,7 @@ export default function Trust() {
     return (
         <section className="pt-10 pb-8 px-5">
             {/* Trusted logos */}
-            <div className="max-w-6xl mx-auto text-[rgba(255,255,255,0.8)] flex flex-col gap-10 mb-3 text-center">
+            <div className="max-w-6xl mx-auto text-[rgba(255,255,255,0.8)] flex flex-col gap-4 mb-3 text-center">
                 <p className="mb-8 text-xs md:text-xl">
                     Trusted by teams at over 1,000 of the world’s leading organizations
                 </p>
