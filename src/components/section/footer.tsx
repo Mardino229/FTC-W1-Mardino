@@ -2,7 +2,7 @@ import LOGO from "../../assets/Logo Wrapper.svg"
 
 export default function Footer() {
     return (
-        <footer className="text-[#FFFFFF] pt-16 px-8 md:px-4 xl:px-0 max-w-7xl mx-auto pb-10">
+        <footer className="text-[#FFFFFF] pt-16 px-8 md:px-4 xl:px-0 max-w-7xl mx-auto">
             <div className="grid md:grid-cols-3 gap-10 text-sm md:text-base">
                 {/* Contact Section */}
                 <div className="flex flex-col gap-10">
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
             {/* Footer Bottom */}
             <div className="flex gap-4 flex-col-reverse pt-10 items-center md:flex-row justify-between ">
-                <p className="font-light text-center text-base text-[#939393]">© 2023 Vaultflow. All Rights Reserved.</p>
+                <p className="font-light text-center text-xs sm:text-base text-[#939393]">© 2023 Vaultflow. All Rights Reserved.</p>
                 <div className="flex items-center space-x-2 mt-4 md:mt-0">
                     <img src={LOGO} alt="Vaultflow" />
                 </div>

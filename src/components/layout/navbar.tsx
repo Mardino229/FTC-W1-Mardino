@@ -11,7 +11,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 w-full bg-[#0B0121] z-40 border-b">
+        <nav className="sticky top-0 w-full bg-[#0B0121] z-40">
             <div className="container mx-auto max-w-7xl ">
                 <div className="flex items-center justify-between h-16 px-6">
                     <a href="/">
@@ -22,7 +22,7 @@ export default function Navbar() {
                             <img src={LOGO} className="w-36 h-8 m-0 p-0" alt="Vaultflow" />
                         </div>
                     </a>
-                    <div className="hidden text-base md:flex items-center gap-8">
+                    <div className="hidden text-base lg:flex items-center gap-8">
                         {links.map((link) => (
                             <a key={link.label} className="text-[#ECECEC] font-medium cursor-pointer" href={link.href}>{link.label}</a>
                         ))}
@@ -33,7 +33,7 @@ export default function Navbar() {
                             Talk to an expert
                         </button>
                     </div>
-                    <div className="md:hidden">
+                    <div className="lg:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className="font-medium bg-[#20035E] cursor-pointer rounded-md px-3 py-2.5"
@@ -50,7 +50,7 @@ export default function Navbar() {
                         // initial={{ opacity: 0, y: -20 }}
                         // animate={{ opacity: 1, y: 0 }}
                         // exit={{ opacity: 0, y: -20 }}
-                        className="md:hidden flex flex-col justify-between min-h-[calc(100dvh-4rem)] py-5 px-6"
+                        className="lg:hidden flex flex-col justify-between min-h-[calc(100dvh-4rem)] py-5 px-6"
                     >
                             <div className="flex text-[#ECECEC] flex-col gap-4">
                                 {links.map((link) => (

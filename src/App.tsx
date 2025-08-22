@@ -10,15 +10,16 @@ import Footer from "./components/section/footer.tsx";
 function App() {
 
     return (
-        <div className="min-h-screen bg-[#0B0121] pb-10 flex flex-col font-montserrat">
+        <div className="min-h-screen bg-[#0B0121] pb-5 flex flex-col font-montserrat">
             <Navbar />
-            <div
-                className="md:pt-24 pt-10 bg-center bg-cover md-no-bg-cover"
-                style={{
-                    backgroundImage: `url(${Bghero})`,
-                }}
-            >
-                <Hero />
+            <div className="md:min-h-[1102px] bg-center" style={{
+                backgroundImage: `url(${Bghero})`,
+            }}>
+                <div
+                    className="md:pt-24 pt-10"
+                >
+                    <Hero />
+                </div>
             </div>
             <div className="pb-2 bg-[#0B0121]">
                 <Trust />

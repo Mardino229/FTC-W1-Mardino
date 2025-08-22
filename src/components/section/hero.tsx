@@ -22,7 +22,7 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="flex justify-center gap-6 md:mb-16 mb-8">
-                <button className="bg-[#ECECEC] w-full md:w-auto mx-4 cursor-pointer text-[#0B081C] py-3 px-6 rounded-full">
+                <button className="bg-[#ECECEC] text-sm md:text-base w-full md:w-auto mx-4 cursor-pointer text-[#0B081C] py-3 px-6 rounded-full">
                     Download the app
                 </button>
                 <button className="cursor-pointer hidden md:flex py-3 px-6 border text-[#ECECEC] border-[#ECECEC] rounded-full">
