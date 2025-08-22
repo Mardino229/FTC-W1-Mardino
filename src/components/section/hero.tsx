@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="md:max-w-5xl max-w-4xl text-center mx-auto">
             {/* Banner */}
-            <div className="inline-block mb-6 px-4 mx-4 text-sm border border-[#FFFFFF] rounded-full md:text-lg text-[#F2F4F8] cursor-pointer">
+            <div className="inline-block mb-6 px-4 mx-4 text-xs sm:text-sm border border-[#FFFFFF] rounded-full md:text-lg text-[#F2F4F8] cursor-pointer">
                 We just raised $20M in Series B. Learn more
             </div>
 
