@@ -18,3 +18,9 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .md-no-bg-cover {
+        background-size: cover !important;
+    }
+}
+

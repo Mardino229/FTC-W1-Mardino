@@ -15,8 +15,8 @@ export default function Hero() {
             </h1>
 
             {/* Subheading */}
-            <p className="text-[rgba(236,236,236,0.65)] text-xs md:text-base px-4 md:px-0 max-w-2xl mx-auto mb-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+            <p className="text-[rgba(236,236,236,0.65)] text-xs md:text-base px-4 md:px-0 max-w-sm mx-auto mb-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique.
             </p>
 

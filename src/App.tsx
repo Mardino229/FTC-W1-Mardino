@@ -12,7 +12,7 @@ function App() {
     return (
         <div className="min-h-screen bg-[#0B0121] pb-5 flex flex-col font-montserrat">
             <Navbar />
-            <div className="md:min-h-[1102px] bg-cover bg-center" style={{
+            <div className="bg-center md-no-bg-cover" style={{
                 backgroundImage: `url(${Bghero})`,
             }}>
                 <div
