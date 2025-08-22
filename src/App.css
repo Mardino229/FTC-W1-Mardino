@@ -11,3 +11,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (min-width: 768px) {
+    .md-no-bg-cover {
+        background-size: initial !important;
+    }
+}
+

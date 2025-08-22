@@ -12,16 +12,16 @@ export default function PowerFull() {
           text-center
         "
             >
-                <h2 className="text-3xl md:text-5xl font-bold mb-7 leading-tight">
+                <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-7 leading-tight">
                     Our powerful analytics <br className="hidden md:block"/>provides invaluable insights.
                 </h2>
-                <p className="text-base mb-10 max-w-2xl text-center mx-auto">
+                <p className="text-sm sm:text-base mb-10 max-w-2xl text-center mx-auto">
                     Unlock the power of data with our cutting-edge analytics product.
                     Get instant insights with our user-friendly Analytics Dashboard, and take advantage
                     of our innovative digital credit tokens to reward your customers and incentivize engagement.
                 </p>
                 <button
-                    className="border border-[#ECECEC] rounded-full px-8 py-3 text-lg font-medium cursor-pointer"
+                    className="border border-[#ECECEC] rounded-full px-8 py-3 text-sm sm:text-lg font-medium cursor-pointer"
                 >
                     Download the app
                 </button>

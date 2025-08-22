@@ -2,7 +2,7 @@ import LOGO from "../../assets/Logo Wrapper.svg"
 
 export default function Footer() {
     return (
-        <footer className="text-[#FFFFFF] pt-16 px-8 md:px-4 xl:px-0 max-w-7xl mx-auto ">
+        <footer className="text-[#FFFFFF] pt-16 px-8 md:px-4 xl:px-0 max-w-7xl mx-auto pb-10">
             <div className="grid md:grid-cols-3 gap-10 text-sm md:text-base">
                 {/* Contact Section */}
                 <div className="flex flex-col gap-10">

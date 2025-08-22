@@ -5,12 +5,12 @@ export default function Hero() {
     return (
         <div className="md:max-w-5xl max-w-4xl text-center mx-auto">
             {/* Banner */}
-            <div className="inline-block mb-6 px-4 mx-4 text-3 border border-[#FFFFFF] rounded-full md:text-lg text-[#F2F4F8] cursor-pointer">
+            <div className="inline-block mb-6 px-4 mx-4 text-sm border border-[#FFFFFF] rounded-full md:text-lg text-[#F2F4F8] cursor-pointer">
                 We just raised $20M in Series B. Learn more
             </div>
 
             {/* Heading */}
-            <h1 className="text-5xl md:text-7xl font-medium leading-tight bg-gradient-to-r from-[#ECECEC] to-[rgba(236,236,236,0)] bg-clip-text text-transparent mb-6">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl font-medium leading-tight bg-gradient-to-r from-[#ECECEC] to-[rgba(236,236,236,0)] bg-clip-text text-transparent mb-6">
                 Modern analytics <br /> for the modern world
             </h1>
 

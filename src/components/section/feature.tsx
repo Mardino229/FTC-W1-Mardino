@@ -10,10 +10,10 @@ export default function Feature () {
     return (
         <section className="text-[#ECECEC]">
             <div className="max-w-md mx-auto text-center py-6">
-                <h2 className="text-5xl max-w-md mx-auto px-2.5 md:text-5xl font-medium mb-6 leading-tight">
+                <h2 className="text-xl sm:text-3xl max-w-md mx-auto px-2.5 md:text-5xl font-medium mb-6 leading-tight">
                     Features that work for your future.
                 </h2>
-                <p className="text-[#ECECEC] text-lg leading-relaxed ">
+                <p className="text-[#ECECEC] text-sm  md:text-lg leading-relaxed ">
                     Check out our amazing features and experience the power of Vaultflow for yourself.
                 </p>
             </div>

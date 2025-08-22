@@ -9,24 +9,25 @@ import Footer from "./components/section/footer.tsx";
 
 function App() {
 
-  return (
-      <div className="min-h-screen flex flex-col font-montserrat">
-          <Navbar />
-          <div
-              className={`pb-10 md:pt-24 pt-10 bg-center bg-cover text-gray-300`}
-              style={{
-                  backgroundImage: `url(${Bghero})`,
-              }
-              }
-          >
-            <Hero />
-            <Trust />
-            <Feature/>
-            <PowerFull />
-            <Footer />
-          </div>
-      </div>
-  )
+    return (
+        <div className="min-h-screen bg-[#0B0121] pb-10 flex flex-col font-montserrat">
+            <Navbar />
+            <div
+                className="md:pt-24 pt-10 bg-center bg-cover md-no-bg-cover"
+                style={{
+                    backgroundImage: `url(${Bghero})`,
+                }}
+            >
+                <Hero />
+            </div>
+            <div className="pb-2 bg-[#0B0121]">
+                <Trust />
+                <Feature/>
+                <PowerFull />
+                <Footer />
+            </div>
+        </div>
+    )
 }
 
 export default App
