@@ -38,7 +38,7 @@ export default function Feature() {
         };
     }, []);
 
-    // Ajoute la référence dans le tableau, utile pour plusieurs éléments
+    // Ajout de la référence dans le tableau
     const addToRefs = (el: HTMLDivElement | null) => {
         if (el && !elementsRef.current.includes(el)) {
             elementsRef.current.push(el);

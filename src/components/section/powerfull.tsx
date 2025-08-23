@@ -2,6 +2,7 @@
 export default function PowerFull() {
     return (
         <section className="text-[#ECECEC] flex items-center justify-center px-4 pt-6">
+            {/*Section Powerfull*/}
             <div
                 className="
           max-w-7xl w-full mx-auto
@@ -20,6 +21,8 @@ export default function PowerFull() {
                     Get instant insights with our user-friendly Analytics Dashboard, and take advantage
                     of our innovative digital credit tokens to reward your customers and incentivize engagement.
                 </p>
+                {/*Bouton Download*/}
+
                 <button
                     className="border border-[#ECECEC] rounded-full px-8 py-3 text-sm sm:text-lg font-medium cursor-pointer"
                 >

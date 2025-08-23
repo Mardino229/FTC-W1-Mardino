@@ -15,6 +15,7 @@ export default function Navbar() {
         <nav className="sticky top-0 w-full bg-[#0B0121] z-40">
             <div className="container mx-auto max-w-7xl ">
                 <div className="flex items-center justify-between h-16 px-6">
+                    {/*Logo*/}
                     <a href="/">
                         <div className="text-2xl font-bold text-primary cursor-pointer">
                             <img
@@ -25,6 +26,7 @@ export default function Navbar() {
                         </div>
                     </a>
                     <div className="hidden text-base lg:flex items-center gap-8">
+                        {/*Link Menu*/}
                         {links.map((link) => (
                             <a
                                 key={link.label}
@@ -42,6 +44,7 @@ export default function Navbar() {
                         </button>
                     </div>
                     <div className="lg:hidden">
+                        {/*Open or Close Menu Button*/}
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className="font-medium bg-[#20035E] cursor-pointer rounded-md px-3 py-2.5"
@@ -55,6 +58,7 @@ export default function Navbar() {
                         </button>
                     </div>
                 </div>
+                {/*Menu Mobile*/}
                 {isOpen && (
                     <div
                         className={`lg:hidden animate-slide-in-from-left fixed top-16 left-0 w-screen min-h-[calc(100dvh-4rem)] bg-[#0B0121] text-[#ECECEC] flex flex-col justify-between py-5 px-6 shadow-lg z-50`}
