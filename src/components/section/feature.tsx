@@ -18,6 +18,8 @@ export default function Feature() {
                 entries.forEach((entry) => {
                     setVisibleElements((prev) => ({
                         ...prev,
+                        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                        // @ts-expect-error
                         [entry.target.dataset.id ?? ""]: entry.isIntersecting,
                     }));
                 });
