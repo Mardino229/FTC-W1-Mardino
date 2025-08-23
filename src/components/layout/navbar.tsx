@@ -16,8 +16,8 @@ export default function Navbar() {
             <div className="container mx-auto max-w-7xl ">
                 <div className="flex items-center justify-between h-16 px-6">
                     {/*Logo*/}
-                    <a href="/">
-                        <div className="text-2xl font-bold text-primary cursor-pointer">
+                    <a href="#hero">
+                        <div className="text-2xl animate-jump-in font-bold text-primary cursor-pointer">
                             <img
                                 src={LOGO}
                                 className="w-36 h-8 m-0 p-0"

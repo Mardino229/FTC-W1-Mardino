@@ -46,7 +46,7 @@ export default function Feature() {
     };
 
     return (
-        <section className="text-[#ECECEC]">
+        <section id="features" className="text-[#ECECEC]">
             <div className="max-w-md mx-auto text-center">
                 <h2 className="text-xl sm:text-3xl max-w-md mx-auto px-2.5 md:text-5xl font-medium mb-6 leading-tight">
                     Features that work for your future.
