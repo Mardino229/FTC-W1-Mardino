@@ -31,7 +31,7 @@ export default function Hero() {
             </div>
 
             {/* Dashboard image */}
-            <div className="w-full md:max-w-7xl mx-auto md:px-6">
+            <div className="animate-fade-up w-full md:max-w-7xl mx-auto md:px-6">
                 <img
                     src={heroImage}
                     alt="Dashboard analytics preview"
