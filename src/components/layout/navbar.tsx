@@ -25,7 +25,7 @@ export default function Navbar() {
                             />
                         </div>
                     </a>
-                    <div className="hidden text-base lg:flex items-center gap-8">
+                    <div className="hidden animate-fade-left text-base lg:flex items-center gap-8">
                         {/*Link Menu*/}
                         {links.map((link) => (
                             <a
@@ -43,7 +43,7 @@ export default function Navbar() {
                             Talk to an expert
                         </button>
                     </div>
-                    <div className="lg:hidden">
+                    <div className="lg:hidden animate-fade-left">
                         {/*Open or Close Menu Button*/}
                         <button
                             onClick={() => setIsOpen(!isOpen)}
