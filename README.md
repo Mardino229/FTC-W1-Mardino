@@ -1,69 +1,49 @@
-# React + TypeScript + Vite
+# 🎯 Landing Page: Figma To Code
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🖼️ Aperçu du rendu
 
-Currently, two official plugins are available:
+### 💻 Version desktop
+![screenshot-desktop](./screenshots/desktop.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📱 Version mobile
+![screenshot-mobile](./screenshots/mobile.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🔗 Liens utiles
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎨 [Lien vers la maquette Figma](https://www.figma.com/design/3xwYqxhJkfVyqwJ82iYJeZ/Challenge-FtoC?node-id=0-1&p=f&t=hpnQHB1kdBJg4HMO-0)
+- 🌐 [Voir le site en ligne](https://mardino229.github.io/FTC-W1-Mardino/)
+- 💻 [Code source sur GitHub](https://github.com/Mardino229/FTC-W1-Mardino)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Stack technique
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React ⚛️
+- TypeScript 🟦
+- TailwindCss 🌬️
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📱 Responsive
+
+Le site est responsive :  
+✅ Mobile  
+✅ Tablette  
+✅ Desktop
+
+---
+
+## 📌 À propos du challenge
+
+**Figma to Code** est un challenge sur 4 semaines avec pour but de coder chaque semaine une nouvelle maquette Figma.
+
+---
+
+## ©️ Auteur
+
+Voir mon linkedin **[Mardino DASSI](www.linkedin.com/in/maxime-mardino-dassi)**  
+
+
